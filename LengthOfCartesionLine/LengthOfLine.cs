@@ -16,10 +16,12 @@ namespace LengthOfCartesionLine
            this.y1= y1;
            this.y2 = y2;
         }
-        public void calculateLength()
+        public double calculateLength()
         { 
         double result=Math.Sqrt((x2-x1)^2+(y2-y1)^2);
-            Console.WriteLine("Length og the Cartesian Line:"+" " +result);
+            return result;
+            //Console.WriteLine("Length og the Cartesian Line:"+" " +result);
         }
+
     }
 }
